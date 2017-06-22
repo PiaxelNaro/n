@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer> renders footer 1`] = `
+<Footer__FooterContainer>
+  <Footer__FooterMain>
+    <ul>
+      <li>
+        <Footer__TextLink
+          href="/?_ref=footer"
+        >
+          Home
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/tours/enterprise-market-data/"
+        >
+          Market Data Intelligence
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/tours/app-analytics-platform/"
+        >
+          App Analytics
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/tours/market-data/"
+        >
+          Store Stats
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/insights/"
+        >
+          Insights
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/pricing/"
+        >
+          Pricing
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/about/"
+        >
+          About
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/customers/"
+        >
+          Customers
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/about/leadership/"
+        >
+          Leadership
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/about/careers/"
+        >
+          Careers
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/about/partnerships/"
+        >
+          Partnerships
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/about/press/"
+        >
+          Press
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/about/contact/"
+        >
+          Contact
+        </Footer__TextLink>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <Footer__TextLink
+          href="http://support..com/?_ref=footer"
+        >
+          Support
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="https://support..com/hc/sections/204363128-Market-Data-Intelligence-API"
+        >
+          Market Data Intelligence API
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/legal/security/"
+        >
+          Security
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/legal/data-usage-policy/"
+        >
+          Data Usage Policy
+        </Footer__TextLink>
+      </li>
+      <li>
+        <Footer__TextLink
+          href="/legal/copyright/"
+        >
+          Copyright Policy
+        </Footer__TextLink>
+      </li>
+    </ul>
+    <Footer__LanguageSelectorWrapper>
+      <LanguageSelector
+        current="en-US"
+        languages={
+          Array [
+            Object {
+              "code": "en-US",
+              "label": "English",
+            },
+            Object {
+              "code": "ja-JP",
+              "label": "日本語",
+            },
+            Object {
+              "code": "ko-KR",
+              "label": "한국어",
+            },
+            Object {
+              "code": "zh-CN",
+              "label": "中文(简体)",
+            },
+            Object {
+              "code": "ru-RU",
+              "label": "Русский",
+            },
+            Object {
+              "code": "fr-FR",
+              "label": "Français",
+            },
+            Object {
+              "code": "de-DE",
+              "label": "Deutsch",
+            },
+          ]
+        }
+      />
+    </Footer__LanguageSelectorWrapper>
+  </Footer__FooterMain>
+  <Footer__FooterSub>
+    <FlexGrid>
+      <FlexGrid.Item
+        flex={1}
+      >
+        <ul
+          className="footer-legal"
+        >
+          <li>
+            <Footer__CopyRight>
+              © 
+              2017
+               App Annie
+            </Footer__CopyRight>
+          </li>
+          <li>
+            <Footer__TextLink
+              href="/legal/terms/"
+            >
+              Terms of Service
+            </Footer__TextLink>
+          </li>
+          <li>
+            <Footer__TextLink
+              href="/legal/privacy/"
+            >
+              Privacy Policy
+            </Footer__TextLink>
+          </li>
+          <li>
+            <a
+              href="//privacy-policy.truste.com/privacy-seal/seal?rid=fc9050fc-4b23-4d84-87bf-a903d26b16bc"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="TRUSTe"
+            >
+              <Footer__Img
+                alt="TRUSTe"
+                height="26"
+                src="//privacy-policy.truste.com/privacy-seal/seal?rid=fc9050fc-4b23-4d84-87bf-a903d26b16bc"
+              />
+            </a>
+          </li>
+        </ul>
+      </FlexGrid.Item>
+      <Footer__Social>
+        <a
+          href="http://www.linkedin.com/company/app-annie"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Footer__SocialIcon
+            className="social-icon-linkedin"
+          />
+        </a>
+        <a
+          href="http://www.facebook.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Footer__SocialIcon
+            className="social-icon-facebook"
+          />
+        </a>
+        <a
+          href="http://www.twitter.com//"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Footer__SocialIcon
+            className="social-icon-twitter"
+          />
+        </a>
+        <a
+          href="http://google.com/+"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Footer__SocialIcon
+            className="social-icon-google_plus"
+          />
+        </a>
+        <a
+          href="http://www.slideshare.net/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Footer__SocialIcon
+            className="social-icon-slide_share"
+          />
+        </a>
+        <a
+          href="http://www.youtube.com/tv"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Footer__SocialIcon
+            className="social-icon-youtube"
+          />
+        </a>
+        <a
+          href="http://e.weibo.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Footer__SocialIcon
+            className="social-icon-weibo"
+          />
+        </a>
+        <a
+          href="http://blog..com/feed/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Footer__SocialIcon
+            className="social-icon-rss"
+          />
+        </a>
+      </Footer__Social>
+    </FlexGrid>
+  </Footer__FooterSub>
+</Footer__FooterContainer>
+`;

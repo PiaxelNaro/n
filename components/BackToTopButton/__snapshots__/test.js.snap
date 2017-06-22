@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BackToTopButton> scroll to top button should display if user scroll down 1`] = `null`;
+
+exports[`<BackToTopButton> scroll to top button should display if user scroll down 2`] = `
+<BackToTopButton__Wrapper
+  onClick={[Function]}
+>
+  <FaChevronUp
+    size={20}
+  />
+</BackToTopButton__Wrapper>
+`;
+
+exports[`<BackToTopButton> scroll to top button should display if user scroll down 3`] = `null`;

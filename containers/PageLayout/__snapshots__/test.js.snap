@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageLayout /> renders base page layout 1`] = `
+<FlexGrid>
+  <FlexGrid.Item
+    flex={0}
+  >
+    <Translate(Connect(Sidebar)) />
+  </FlexGrid.Item>
+  <FlexGrid.Item
+    flex={1}
+  >
+    <FlexGrid>
+      <FlexGrid.Item
+        flex={0}
+      >
+        <Translate(SearchBar) />
+      </FlexGrid.Item>
+    </FlexGrid>
+    <PageLayout__Main>
+      hey
+    </PageLayout__Main>
+    <Translate(Footer)
+      content={
+        Object {
+          "groups": Array [
+            Object {
+              "links": Array [
+                Object {
+                  "label": "Home",
+                  "newwin": false,
+                  "url": "/?_ref=footer",
+                },
+                Object {
+                  "label": "Market Data Intelligence",
+                  "newwin": false,
+                  "url": "/tours/enterprise-market-data/",
+                },
+                Object {
+                  "label": "App Analytics",
+                  "newwin": false,
+                  "url": "/tours/app-analytics-platform/",
+                },
+                Object {
+                  "label": "Store Stats",
+                  "newwin": false,
+                  "url": "/tours/market-data/",
+                },
+                Object {
+                  "label": "Insights",
+                  "newwin": true,
+                  "url": "/insights/",
+                },
+                Object {
+                  "label": "Pricing",
+                  "newwin": false,
+                  "url": "/pricing/",
+                },
+                Object {
+                  "label": "About",
+                  "newwin": false,
+                  "url": "/about/",
+                },
+                Object {
+                  "label": "Customers",
+                  "newwin": false,
+                  "url": "/customers/",
+                },
+                Object {
+                  "label": "Leadership",
+                  "newwin": false,
+                  "url": "/about/leadership/",
+                },
+                Object {
+                  "label": "Careers",
+                  "newwin": false,
+                  "url": "/about/careers/",
+                },
+                Object {
+                  "label": "Partnerships",
+                  "newwin": false,
+                  "url": "/about/partnerships/",
+                },
+                Object {
+                  "label": "Press",
+                  "newwin": false,
+                  "url": "/about/press/",
+                },
+                Object {
+                  "label": "Contact",
+                  "newwin": false,
+                  "url": "/about/contact/",
+                },
+              ],
+            },
+            Object {
+              "links": Array [
+                Object {
+                  "label": "Support",
+                  "newwin": true,
+                  "url": "http://support..com/?_ref=footer",
+                },
+                Object {
+                  "label": "Market Data Intelligence API",
+                  "newwin": false,
+                  "url": "https://support..com/hc/sections/204363128-Market-Data-Intelligence-API",
+                },
+                Object {
+                  "label": "Security",
+                  "newwin": false,
+                  "url": "/legal/security/",
+                },
+                Object {
+                  "label": "Data Usage Policy",
+                  "newwin": false,
+                  "url": "/legal/data-usage-policy/",
+                },
+                Object {
+                  "label": "Copyright Policy",
+                  "newwin": false,
+                  "url": "/legal/copyright/",
+                },
+              ],
+            },
+          ],
+          "languages_for_switch": Array [
+            Object {
+              "code": "en-US",
+              "label": "English",
+            },
+            Object {
+              "code": "ja-JP",
+              "label": "日本語",
+            },
+            Object {
+              "code": "ko-KR",
+              "label": "한국어",
+            },
+            Object {
+              "code": "zh-CN",
+              "label": "中文(简体)",
+            },
+            Object {
+              "code": "ru-RU",
+              "label": "Русский",
+            },
+            Object {
+              "code": "fr-FR",
+              "label": "Français",
+            },
+            Object {
+              "code": "de-DE",
+              "label": "Deutsch",
+            },
+          ],
+          "truste_img": "//privacy.truste.com/privacy-seal/validation?rid=fc9050fc-4b23-4d84-87bf-a903d26b16bc",
+          "truste_url": "//privacy-policy.truste.com/privacy-seal/seal?rid=fc9050fc-4b23-4d84-87bf-a903d26b16bc",
+        }
+      }
+    />
+  </FlexGrid.Item>
+  <BackToTopButton />
+</FlexGrid>
+`;

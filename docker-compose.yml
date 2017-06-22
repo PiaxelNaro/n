@@ -1,0 +1,40 @@
+version: '2'
+
+volumes:
+  node-sass:
+
+services:
+    base:
+        build: .
+        image: node:8.1.0
+
+    nginx:
+        build: ./docker/nginx
+        links:
+            - next:next
+        ports:
+            - "80:80"
+            - "443:443"
+        volumes:
+            - ./logs/nginx:/etc/nginx/logs
+
+    next:
+        build: .
+        ports:
+            - "3000"
+        volumes:
+            - .:/root
+            # For different sys env
+            - node-sass:/root/node_modules/node-sass
+        environment:
+            - NODE_ENV=development
+            - PROXY_SERVER=$PROXY_SERVER
+        command: ['node', 'server.js']
+
+    test:
+        image: node:8.1.0
+        environment:
+            - NODE_ENV=test
+        volumes:
+            - ./coverage:/root/coverage
+            - ./storybook-static:/root/storybook-static

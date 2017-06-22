@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExportButtons> renders button 1`] = `
+<FlexGrid
+  gutter="5px"
+  inline={true}
+>
+  <ExportButtons__IconLabelWrapper
+    flex={0}
+  >
+    <FaDownload
+      size={12}
+    />
+  </ExportButtons__IconLabelWrapper>
+  <ExportButtons__IconLabelWrapper
+    flex={0}
+  >
+    Export
+  </ExportButtons__IconLabelWrapper>
+  <ButtonGroup>
+    <ExportButtons__StyledButton
+      href="testCsv"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      CSV
+    </ExportButtons__StyledButton>
+    <ExportButtons__StyledButton
+      href="testXlsx"
+      rel="noreferrer noopener"
+      target="_blank"
+    >
+      XLSX
+    </ExportButtons__StyledButton>
+  </ButtonGroup>
+</FlexGrid>
+`;

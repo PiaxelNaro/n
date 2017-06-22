@@ -1,0 +1,21 @@
+.ReactModal__Body--open {
+    overflow: hidden
+}
+
+.ReactModal__Overlay {
+    transition: opacity .2 ease-in-out;
+    opacity: 1;
+}
+.ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.ReactModal__Content {
+    transition: all .2 ease-in-out;
+    opacity: 1;
+    transform: translateY(0);
+}
+.ReactModal__Content--before-close {
+    opacity: 0;
+    transform: translateY(30px);
+}

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SortIndicator /> render sort direction 1`] = `
+<SortIndicator__Wrapper>
+  <FaSort
+    color="#CCC"
+    size={13}
+  />
+</SortIndicator__Wrapper>
+`;
+
+exports[`<SortIndicator /> render sort direction 2`] = `
+<SortIndicator__Wrapper>
+  <FaSort
+    color="#CCC"
+    size={13}
+  />
+  <FaSortAsc
+    color="currentColor"
+    size={13}
+  />
+</SortIndicator__Wrapper>
+`;
+
+exports[`<SortIndicator /> render sort direction 3`] = `
+<SortIndicator__Wrapper>
+  <FaSort
+    color="#CCC"
+    size={13}
+  />
+  <FaSortDesc
+    color="currentColor"
+    size={13}
+  />
+</SortIndicator__Wrapper>
+`;

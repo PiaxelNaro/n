@@ -1,0 +1,9 @@
+node_modules
+.npm
+coverage
+flow-typed
+.flow-typed
+logs
+.next
+_locales
+.idea/

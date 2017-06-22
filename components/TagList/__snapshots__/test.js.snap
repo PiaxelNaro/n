@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="TagList__StyledTag-s1l81fvs-0 hLCUH"
+/>
+`;
+
+exports[` 2`] = `
+<div
+  className="TagList__StyledTag-s1l81fvs-0 Fiadp"
+/>
+`;
+
+exports[`<TagItem> render selected <TagItem> 1`] = `
+<TagList__StyledTag
+  isActive={true}
+>
+  Ad Revenue
+</TagList__StyledTag>
+`;
+
+exports[`<TagItem> render unselected <TagItem> 1`] = `
+<TagList__StyledTag
+  onClick={[Function]}
+>
+  Ad Revenue
+</TagList__StyledTag>
+`;
+
+exports[`<TagList> render nav (current) 1`] = `
+<FlexGrid>
+  <TagItem
+    isActive={true}
+  >
+    Ad Revenue
+  </TagItem>
+  <TagItem
+    onClick={[Function]}
+  >
+    eCPM
+  </TagItem>
+  <TagItem
+    onClick={[Function]}
+  >
+    eCPC
+  </TagItem>
+  <TagItem
+    onClick={[Function]}
+  >
+    Clicks
+  </TagItem>
+  <TagItem
+    onClick={[Function]}
+  >
+    Fill Rate
+  </TagItem>
+</FlexGrid>
+`;

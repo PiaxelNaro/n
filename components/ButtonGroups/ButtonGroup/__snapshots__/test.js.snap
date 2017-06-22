@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonGroup> renders ButtonGroup 1`] = `
+<ButtonGroup__Wrapper>
+  <Button>
+    My
+  </Button>
+  <Button>
+    ButtonGroup
+  </Button>
+</ButtonGroup__Wrapper>
+`;

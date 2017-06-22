@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageSizeSelector> renders PageSizeSelector with customized options 1`] = `
+<PageSizeSelector
+  current={10}
+  i18n={
+    Object {
+      "gettext": [Function],
+      "lang": "en-US",
+      "ngettext": [Function],
+      "npgettext": [Function],
+      "pgettext": [Function],
+    }
+  }
+  onSelectionChanged={[Function]}
+  options={
+    Array [
+      10,
+      50,
+      100,
+    ]
+  }
+>
+  <PageSizeSelector__Wrapper>
+    <div
+      className="PageSizeSelector__Wrapper-s8km4x9-0 jtXQfE"
+    >
+      Show rows:
+      <PageSizeSelector__RawSelect
+        onChange={[Function]}
+        value={10}
+      >
+        <select
+          className="PageSizeSelector__RawSelect-s8km4x9-1 hpABCI"
+          onChange={[Function]}
+          value={10}
+        >
+          <option
+            value={10}
+          >
+            10
+          </option>
+          <option
+            value={50}
+          >
+            50
+          </option>
+          <option
+            value={100}
+          >
+            100
+          </option>
+        </select>
+      </PageSizeSelector__RawSelect>
+    </div>
+  </PageSizeSelector__Wrapper>
+</PageSizeSelector>
+`;
+
+exports[`<PageSizeSelector> renders PageSizeSelector with default options 1`] = `
+<PageSizeSelector__Wrapper>
+  Show rows:
+  <PageSizeSelector__RawSelect
+    onChange={[Function]}
+    value={100}
+  >
+    <option
+      value={10}
+    >
+      10
+    </option>
+    <option
+      value={50}
+    >
+      50
+    </option>
+    <option
+      value={100}
+    >
+      100
+    </option>
+    <option
+      value={500}
+    >
+      500
+    </option>
+    <option
+      value={1000}
+    >
+      1000
+    </option>
+  </PageSizeSelector__RawSelect>
+</PageSizeSelector__Wrapper>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tooltip /> renders text and tooltip 1`] = `
+<OverlayTrigger
+  getOverlay={[Function]}
+  trigger="hover"
+>
+  <Tooltip__ContentWrapper>
+    Lorem
+  </Tooltip__ContentWrapper>
+</OverlayTrigger>
+`;
+
+exports[`<Tooltip /> renders text and tooltip 2`] = `
+<Overlay__OverlayWrapper
+  showArrow={true}
+>
+  <Overlay__ArrowUp />
+  <Overlay__OverlayInner>
+    <Tooltip__TooltipWrapper>
+      Lorem ipsum dolor.
+    </Tooltip__TooltipWrapper>
+  </Overlay__OverlayInner>
+</Overlay__OverlayWrapper>
+`;

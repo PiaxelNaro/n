@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`formatDateRange() formats date range spawning different months 1`] = `"Feb 3-Jun 16, 2017"`;
+
+exports[`formatDateRange() formats date range spawning different years 1`] = `"Mar 1, 2017-Jun 7, 2015"`;
+
+exports[`formatDateRange() formats date range within the same month 1`] = `"Sep 11-22, 2017"`;

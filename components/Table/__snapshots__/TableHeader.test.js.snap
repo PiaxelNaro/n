@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderCell> can be sortable 1`] = `
+<TableHeader__Th
+  className="isSortable"
+  colSpan={1}
+  onClick={[Function]}
+  rowSpan={1}
+>
+  <FlexGrid
+    gutter="4px"
+  >
+    <FlexGrid.Item
+      flex={1}
+      style={
+        Object {
+          "textAlign": "left",
+        }
+      }
+    >
+      Content
+    </FlexGrid.Item>
+    <FlexGrid.Item
+      flex={0}
+    >
+      <SortIndicator
+        direction="desc"
+      />
+    </FlexGrid.Item>
+  </FlexGrid>
+</TableHeader__Th>
+`;
+
+exports[`<HeaderCell> can handle layout properties 1`] = `
+<TableHeader__Th
+  className=""
+  colSpan={2}
+  rowSpan={2}
+  style={
+    Object {
+      "width": "30px",
+    }
+  }
+>
+  <FlexGrid
+    gutter="4px"
+  >
+    <FlexGrid.Item
+      flex={1}
+      style={
+        Object {
+          "textAlign": "left",
+        }
+      }
+    >
+      Content
+    </FlexGrid.Item>
+  </FlexGrid>
+</TableHeader__Th>
+`;
+
+exports[`<HeaderCellContent /> renders label 1`] = `
+<span>
+  Lorem ipsum.
+</span>
+`;
+
+exports[`<HeaderCellContent /> renders label and tooltip 1`] = `
+<Tooltip
+  content="Lorem ipsum dolor sit."
+>
+  Lorem ipsum.
+</Tooltip>
+`;
+
+exports[`<TableHeader /> renders fixed size header 1`] = `
+<TableHeader__TableHead>
+  <tr
+    style={
+      Object {
+        "height": "1px",
+      }
+    }
+  >
+    <HeaderCell
+      align="left"
+      colSpan={1}
+      onSort={null}
+      rowSpan={2}
+      sortDirection={null}
+      style={
+        Object {
+          "width": "2px",
+        }
+      }
+    >
+      <HeaderCellContent
+        label="Bar"
+      />
+    </HeaderCell>
+    <HeaderCell
+      align="left"
+      colSpan={2}
+      onSort={null}
+      rowSpan={1}
+      sortDirection={null}
+      style={
+        Object {
+          "width": "3px",
+        }
+      }
+    >
+      <HeaderCellContent
+        label="Foo"
+      />
+    </HeaderCell>
+  </tr>
+  <tr
+    style={
+      Object {
+        "height": "4px",
+      }
+    }
+  >
+    <HeaderCell
+      align="left"
+      colSpan={1}
+      onSort={null}
+      rowSpan={2}
+      sortDirection={null}
+      style={
+        Object {
+          "width": "5px",
+        }
+      }
+    >
+      <HeaderCellContent
+        label="Foo 1"
+      />
+    </HeaderCell>
+    <HeaderCell
+      align="left"
+      colSpan={1}
+      onSort={null}
+      rowSpan={2}
+      sortDirection={null}
+      style={
+        Object {
+          "width": "6px",
+        }
+      }
+    >
+      <HeaderCellContent
+        label="Foo 2"
+      />
+    </HeaderCell>
+  </tr>
+</TableHeader__TableHead>
+`;
+
+exports[`<TableHeader /> renders multi level table header 1`] = `
+<TableHeader__TableHead>
+  <tr
+    style={Object {}}
+  >
+    <HeaderCell
+      align="left"
+      colSpan={1}
+      onSort={null}
+      rowSpan={2}
+      sortDirection={null}
+      style={Object {}}
+    >
+      <HeaderCellContent
+        label="Bar"
+      />
+    </HeaderCell>
+    <HeaderCell
+      align="left"
+      colSpan={2}
+      onSort={null}
+      rowSpan={1}
+      sortDirection={null}
+      style={Object {}}
+    >
+      <HeaderCellContent
+        label="Foo"
+      />
+    </HeaderCell>
+  </tr>
+  <tr
+    style={Object {}}
+  >
+    <HeaderCell
+      align="left"
+      colSpan={1}
+      onSort={null}
+      rowSpan={2}
+      sortDirection={null}
+      style={Object {}}
+    >
+      <HeaderCellContent
+        label="Foo 1"
+      />
+    </HeaderCell>
+    <HeaderCell
+      align="left"
+      colSpan={1}
+      onSort={null}
+      rowSpan={2}
+      sortDirection={null}
+      style={Object {}}
+    >
+      <HeaderCellContent
+        label="Foo 2"
+      />
+    </HeaderCell>
+  </tr>
+</TableHeader__TableHead>
+`;

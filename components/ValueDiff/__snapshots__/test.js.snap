@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ValueDiff /> renders neutral value 1`] = `
+<ValueDiff__Wrapper
+  type="neutral"
+>
+  =
+</ValueDiff__Wrapper>
+`;
+
+exports[`<ValueDiff /> renders neutral value 2`] = `
+<ValueDiff__Wrapper
+  type="neutral"
+>
+  =
+</ValueDiff__Wrapper>
+`;
+
+exports[`<ValueDiff /> renders value with unit 1`] = `
+<ValueDiff__Wrapper
+  type="positive"
+>
+  <ValueDiff__Unit>
+    ▲
+  </ValueDiff__Unit>
+  0.234551
+  <ValueDiff__Unit>
+    %
+  </ValueDiff__Unit>
+</ValueDiff__Wrapper>
+`;
+
+exports[`<ValueDiff /> renders value with unit 2`] = `
+<ValueDiff__Wrapper
+  type="positive"
+>
+  <ValueDiff__Unit>
+    +
+  </ValueDiff__Unit>
+  0.234551
+  <ValueDiff__Unit>
+    %
+  </ValueDiff__Unit>
+</ValueDiff__Wrapper>
+`;
+
+exports[`<ValueDiff /> renders value without type 1`] = `
+<ValueDiff__Wrapper
+  type="positive"
+>
+  <ValueDiff__Unit />
+  1
+  <ValueDiff__Unit />
+</ValueDiff__Wrapper>
+`;
+
+exports[`<ValueDiff /> renders value without type 2`] = `
+<ValueDiff__Wrapper
+  type="negative"
+>
+  <ValueDiff__Unit />
+  1
+  <ValueDiff__Unit />
+</ValueDiff__Wrapper>
+`;
+
+exports[`<ValueDiff /> renders value without unit 1`] = `
+<ValueDiff__Wrapper
+  type="negative"
+>
+  <ValueDiff__Unit>
+    ▼
+  </ValueDiff__Unit>
+  3.2
+  <ValueDiff__Unit />
+</ValueDiff__Wrapper>
+`;
+
+exports[`<ValueDiff /> renders value without unit 2`] = `
+<ValueDiff__Wrapper
+  type="negative"
+>
+  <ValueDiff__Unit>
+    -
+  </ValueDiff__Unit>
+  3.2
+  <ValueDiff__Unit />
+</ValueDiff__Wrapper>
+`;
+
+exports[`<ValueDiff /> sets color properly 1`] = `
+<span
+  className="ValueDiff__Wrapper-s1lggxkb-0 bKlvlc"
+  type="positive"
+/>
+`;

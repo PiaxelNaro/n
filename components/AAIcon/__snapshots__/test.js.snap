@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AAIcon> render icon 1`] = `
+<AAIcon__RawAAIcon
+  className="aaicon aaicon-aa-home"
+/>
+`;

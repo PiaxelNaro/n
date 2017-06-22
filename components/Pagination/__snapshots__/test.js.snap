@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination> render children 1`] = `
+<FlexGrid
+  gutter="5px"
+  inline={true}
+>
+  <Pagination__FlexItem>
+    Go to page
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    <Pagination__PageInput
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      type="text"
+      value={3}
+    />
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    of
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    10
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    <Pagination__NavButton
+      disabled={false}
+      onClick={[Function]}
+    >
+      <FaAngleLeft
+        size={15}
+      />
+    </Pagination__NavButton>
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    <Pagination__NavButton
+      disabled={false}
+      onClick={[Function]}
+    >
+      <FaAngleRight
+        size={15}
+      />
+    </Pagination__NavButton>
+  </Pagination__FlexItem>
+</FlexGrid>
+`;
+
+exports[`<Pagination> render first page, the prev button should be disabled 1`] = `
+<FlexGrid
+  gutter="5px"
+  inline={true}
+>
+  <Pagination__FlexItem>
+    Go to page
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    <Pagination__PageInput
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      type="text"
+      value={1}
+    />
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    of
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    10
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    <Pagination__NavButton
+      disabled={true}
+      onClick={[Function]}
+    >
+      <FaAngleLeft
+        size={15}
+      />
+    </Pagination__NavButton>
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    <Pagination__NavButton
+      disabled={false}
+      onClick={[Function]}
+    >
+      <FaAngleRight
+        size={15}
+      />
+    </Pagination__NavButton>
+  </Pagination__FlexItem>
+</FlexGrid>
+`;
+
+exports[`<Pagination> render last page, the next button should be disabled 1`] = `
+<FlexGrid
+  gutter="5px"
+  inline={true}
+>
+  <Pagination__FlexItem>
+    Go to page
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    <Pagination__PageInput
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      type="text"
+      value={10}
+    />
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    of
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    10
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    <Pagination__NavButton
+      disabled={false}
+      onClick={[Function]}
+    >
+      <FaAngleLeft
+        size={15}
+      />
+    </Pagination__NavButton>
+  </Pagination__FlexItem>
+  <Pagination__FlexItem>
+    <Pagination__NavButton
+      disabled={true}
+      onClick={[Function]}
+    >
+      <FaAngleRight
+        size={15}
+      />
+    </Pagination__NavButton>
+  </Pagination__FlexItem>
+</FlexGrid>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LanguageSelector> renders languages 1`] = `
+<TagList
+  current="en-US"
+  items={
+    Array [
+      Object {
+        "id": "en-US",
+        "name": "English",
+      },
+      Object {
+        "id": "ja-JP",
+        "name": "日本語",
+      },
+      Object {
+        "id": "ko-KR",
+        "name": "한국어",
+      },
+      Object {
+        "id": "zh-CN",
+        "name": "中文(简体)",
+      },
+      Object {
+        "id": "ru-RU",
+        "name": "Русский",
+      },
+      Object {
+        "id": "fr-FR",
+        "name": "Français",
+      },
+      Object {
+        "id": "de-DE",
+        "name": "Deutsch",
+      },
+    ]
+  }
+  onChange={[Function]}
+/>
+`;

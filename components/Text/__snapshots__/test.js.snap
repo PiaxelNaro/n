@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text> render 1`] = `
+<Text__Text>
+  <div
+    className="Text__Text-kba93n-0 hzMLqL"
+  />
+</Text__Text>
+`;
+
+exports[`<Text> render text 1`] = `
+<Text__Text
+  ellipsis={true}
+>
+  <div
+    className="Text__Text-kba93n-0 ipsvzA"
+  />
+</Text__Text>
+`;

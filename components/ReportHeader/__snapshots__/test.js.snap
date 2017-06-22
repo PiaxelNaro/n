@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReportHeader> Render UI 1`] = `
+<div>
+  <ReportHeader__SubTitle>
+    SUBSUB TITLE
+  </ReportHeader__SubTitle>
+  <ReportHeader__MainTitle>
+    Titletitle
+    <ReportHeader__TitleLink
+      href="https://www.google.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      About this report
+    </ReportHeader__TitleLink>
+  </ReportHeader__MainTitle>
+</div>
+`;

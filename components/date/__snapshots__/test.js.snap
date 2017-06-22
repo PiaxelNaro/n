@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DatePickerSwitch /> render WeekPicker 1`] = `
+<WeekPicker
+  currentEndDate={"2017-04-08T00:00:00.000Z"}
+  currentStartDate={"2017-04-02T00:00:00.000Z"}
+  onDateSelected={[Function]}
+/>
+`;
+
+exports[`<DatePickerSwitch /> render WeekRangePicker 1`] = `
+<WeekRangePicker
+  currentEndDate={"2016-05-05T00:00:00.000Z"}
+  currentStartDate={"2014-05-05T00:00:00.000Z"}
+  onDateSelected={[Function]}
+/>
+`;

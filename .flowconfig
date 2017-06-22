@@ -1,0 +1,17 @@
+[ignore]
+.*/.flow-typed/.*
+.*/bin/.*
+.*/node_modules/enzyme-matchers/src/.*
+.*/node_modules/styled-components/src/.*
+.*/node_modules/styled-components/lib/.*
+.*/node_modules/babel-plugin-transform-react-remove-prop-types/src/.*
+.*/node_modules/mitt/src/.*
+
+[include]
+
+[libs]
+
+[options]
+module.name_mapper='.+\.s?css' -> 'empty/object'
+module.name_mapper='react-native' -> 'empty/object'
+module.system=haste

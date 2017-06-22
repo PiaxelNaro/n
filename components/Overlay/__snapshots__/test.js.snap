@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Overlay.Trigger> click won't trigger toggle overlay with hover type 1`] = `
+<OverlayControl
+  innerRef={[Function]}
+  onClick={false}
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
+>
+  Hello
+</OverlayControl>
+`;
+
+exports[`<Overlay.Trigger> toggle overlay 1`] = `
+<OverlayControl
+  innerRef={[Function]}
+  onClick={[Function]}
+  onMouseOut={false}
+  onMouseOver={false}
+>
+  Hello
+</OverlayControl>
+`;
+
+exports[`<Overlay.Trigger> toggle overlay 2`] = `
+<OverlayControl
+  innerRef={[Function]}
+  onClick={[Function]}
+  onMouseOut={false}
+  onMouseOver={false}
+>
+  Hello
+  <Portal
+    closeOnOutsideClick={true}
+    isOpened={true}
+    onClose={[Function]}
+    onOpen={[Function]}
+    onUpdate={[Function]}
+  >
+    <Overlay__OverlayPositionner
+      alignTo="left"
+      onMouseOut={false}
+      onMouseOver={false}
+      style={
+        Object {
+          "left": 0,
+          "top": 0,
+        }
+      }
+    >
+      <div
+        id="overlay"
+      />
+    </Overlay__OverlayPositionner>
+  </Portal>
+</OverlayControl>
+`;
+
+exports[`<Overlay> renders as tooltip 1`] = `
+<Overlay__OverlayWrapper
+  showArrow={true}
+>
+  <Overlay__ArrowUp />
+  <Overlay__OverlayInner>
+    My Overlay
+  </Overlay__OverlayInner>
+</Overlay__OverlayWrapper>
+`;
+
+exports[`<Overlay> renders children 1`] = `
+<Overlay__OverlayWrapper>
+  <Overlay__OverlayInner>
+    My Overlay
+  </Overlay__OverlayInner>
+</Overlay__OverlayWrapper>
+`;
+
+exports[`<OverlayWrapper> render with arrow 1`] = `
+<div
+  className="AAOverlay Overlay__OverlayWrapper-emz8m8-1 with-arrow lbmeGM"
+>
+  My Right Overlay Wrapper
+</div>
+`;
