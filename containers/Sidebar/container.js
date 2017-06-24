@@ -175,7 +175,7 @@ class Container extends React.Component {
 
         let premiumText;
         if (isPremium) {
-            premiumText = <PremiumText>PREMIUM</PremiumText>;
+            premiumText = <PremiumText>管理员</PremiumText>;
         }
         return (
             <Wrapper isCollapsable={isCollapsable}>

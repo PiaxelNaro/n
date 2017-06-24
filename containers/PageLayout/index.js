@@ -2,6 +2,12 @@
 import React from 'react';
 import styled, { injectGlobal } from 'styled-components';
 import normalize from 'styled-normalize';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+
+// Needed for onTouchTap
+// http://stackoverflow.com/a/34015469/988941
+injectTapEventPlugin();
+
 import FlexGrid from '../../components/FlexGrid';
 import BackToTopButton from '../../components/BackToTopButton';
 import Footer from '../../components/Footer';
@@ -40,7 +46,7 @@ export default ({
         <FlexGrid.Item>
             <FlexGrid>
                 <FlexGrid.Item flex={0}>
-                    Top bar content
+                    <h2>Top bar content</h2>
                 </FlexGrid.Item>
             </FlexGrid>
             <Main>

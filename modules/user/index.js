@@ -6,22 +6,6 @@ export type UserType = {
         email: string,
         fileRepository?: string,
     },
-    isANA: boolean,
-    isINT: boolean,
-    isApiPartner?: boolean,
-    intAuth: {
-        store?: {
-            pp: boolean,
-            pya: boolean,
-            pyp: boolean,
-        },
-        usage?: {
-            pp: boolean,
-            pya: boolean,
-        },
-        marketing?: {
-            advertising: boolean,
-            aso: boolean,
-        },
-    },
+    isAdmin: boolean,
+    auth: Object,
 };

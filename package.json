@@ -59,6 +59,7 @@
     "is-node": "^1.0.2",
     "jed": "^1.1.1",
     "lodash": "^4.17.4",
+    "material-ui": "^0.18.3",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "moment": "^2.18.1",
@@ -77,6 +78,7 @@
     "react-modal": "^1.7.7",
     "react-portal": "^3.1.0",
     "react-redux": "^5.0.5",
+    "react-tap-event-plugin": "^2.0.1",
     "redux": "^3.6.0",
     "redux-actions": "^2.0.3",
     "reselect": "^3.0.1",
@@ -95,6 +97,7 @@
     "build-storybook": "build-storybook",
     "build-locale": "node bin/locale/build",
     "pull-locale": "node bin/locale/build --pull",
+    "init-locale": "node bin/locale/build --init",
     "precommit": "lint-staged"
   },
   "lint-staged": {

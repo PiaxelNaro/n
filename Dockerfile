@@ -15,7 +15,7 @@ RUN yarn install --pure-lockfile --ignore-optional
 ADD . /root
 
 # Build the locale files
-# RUN yarn run pull-locale
+RUN yarn run init-locale
 
 # Build and run the app
 RUN yarn run next build

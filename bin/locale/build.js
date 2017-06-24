@@ -45,6 +45,8 @@ function run(name, taskList) {
 
 if (argv.pull) {
     run('PULL', [[extract, 'EXTRACT'], [pull, 'PULL'], [convert, 'CONVERT']]);
+} if (argv.init) {
+    run('INIT', [[extract, 'EXTRACT'], [convert, 'CONVERT']]);
 } else {
     run('BUILD', [
         [extract, 'EXTRACT'],

@@ -18,7 +18,7 @@ const mapStateToProps = (
     return {
         home: navs.home,
         platforms: navs.platforms,
-        isPremium: user.isINT,
+        isPremium: user.isAdmin,
         onClickNav,
     };
 };
